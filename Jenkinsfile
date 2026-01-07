@@ -2,11 +2,11 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = 'duyhihi101/demo_-web' 
+        DOCKER_IMAGE = 'duyhihi101/demo-web1' 
         DOCKER_TAG = 'latest'
         REGISTRY_CREDENTIALS = 'dockerhub-id' 
         GIT_REPO = 'https://github.com/NhatDi101/test_auto.git'
-        CONTAINER_NAME = 'website-do-an'
+        CONTAINER_NAME = 'website-doan'
     }
 
     stages {
