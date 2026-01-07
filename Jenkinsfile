@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = 'duyhihi101/Demo-web' 
+        DOCKER_IMAGE = 'duyhihi101/Demo_-web' 
         DOCKER_TAG = 'latest'
         REGISTRY_CREDENTIALS = 'dockerhub-id' 
         GIT_REPO = 'https://github.com/NhatDi101/test_auto.git'
